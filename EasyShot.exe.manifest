@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EasyShot.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="en-AS" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\EasyShot.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EasyShot" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EasyShot.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EasyShot.exe" size="646656">
+      <assemblyIdentity name="EasyShot" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>w4f9fMWF7uVvNVZ5dgSc1ZKy8zJRMxg6LTHPy/3QFfE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.AWT.WinForms.dll" size="192512">
+      <assemblyIdentity name="IKVM.AWT.WinForms" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Beans.dll" size="272384">
+      <assemblyIdentity name="IKVM.OpenJDK.Beans" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Charsets.dll" size="1749504">
+      <assemblyIdentity name="IKVM.OpenJDK.Charsets" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Cldrdata.dll" size="6788608">
+      <assemblyIdentity name="IKVM.OpenJDK.Cldrdata" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Corba.dll" size="2127872">
+      <assemblyIdentity name="IKVM.OpenJDK.Corba" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Core.dll" size="6682112">
+      <assemblyIdentity name="IKVM.OpenJDK.Core" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Jdbc.dll" size="483840">
+      <assemblyIdentity name="IKVM.OpenJDK.Jdbc" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Localedata.dll" size="1647616">
+      <assemblyIdentity name="IKVM.OpenJDK.Localedata" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Management.dll" size="1196032">
+      <assemblyIdentity name="IKVM.OpenJDK.Management" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Media.dll" size="808448">
+      <assemblyIdentity name="IKVM.OpenJDK.Media" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Misc.dll" size="213504">
+      <assemblyIdentity name="IKVM.OpenJDK.Misc" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Naming.dll" size="475136">
+      <assemblyIdentity name="IKVM.OpenJDK.Naming" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Nashorn.dll" size="1875456">
+      <assemblyIdentity name="IKVM.OpenJDK.Nashorn" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Remoting.dll" size="394240">
+      <assemblyIdentity name="IKVM.OpenJDK.Remoting" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Security.dll" size="2862592">
+      <assemblyIdentity name="IKVM.OpenJDK.Security" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.SwingAWT.dll" size="6344192">
+      <assemblyIdentity name="IKVM.OpenJDK.SwingAWT" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Text.dll" size="547840">
+      <assemblyIdentity name="IKVM.OpenJDK.Text" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Tools.dll" size="6739968">
+      <assemblyIdentity name="IKVM.OpenJDK.Tools" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.Util.dll" size="971776">
+      <assemblyIdentity name="IKVM.OpenJDK.Util" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.API.dll" size="212480">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.API" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.Bind.dll" size="1394688">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.Bind" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.Crypto.dll" size="516608">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.Crypto" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.Parse.dll" size="2702848">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.Parse" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.Transform.dll" size="1484800">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.Transform" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.WebServices.dll" size="2787840">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.WebServices" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.OpenJDK.XML.XPath.dll" size="1145856">
+      <assemblyIdentity name="IKVM.OpenJDK.XML.XPath" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.Runtime.dll" size="901120">
+      <assemblyIdentity name="IKVM.Runtime" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IKVM.Runtime.JNI.dll" size="81920">
+      <assemblyIdentity name="IKVM.Runtime.JNI" version="8.1.5717.0" publicKeyToken="13235D27FCBFFF58" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LibHotKeys.dll" size="8704">
+      <assemblyIdentity name="LibHotKeys" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0VKLEPLdkQVC0g5CxLQbC/5FcOsk4otxHxNLIxzYJKk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tesseract.dll" size="131584">
+      <assemblyIdentity name="Tesseract" version="4.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aZ8GUHgRbRT2rAj9vIPhLu3JnS55YDDmLEtawGECteU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EasyShot.exe.config" size="1701">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>APlBaXEWOjHse9uWfWTrfBtzWo75Xr1hKGqOuGoi+GA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ChangeColor.BackgroundImage.png" size="2398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X2KBS6HmX7+9rGkV91UJw4VbaLtOuOzD6NzzTW9vKxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Close.BackgroundImage.png" size="2849">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TSNOornAXf6DnBT8Nr9PVpTLewHKHEuTniIHEBCsgf8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Copybtn.BackgroundImage.png" size="2497">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HsWTrogpZwtC0xUZIrZiEibhF5O9frxLMAeHY7j3W/w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CopyImg.BackgroundImage.png" size="2068">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yAFc+BaqWxu7vCVkL9zeMMinu3BgjIIrtfAq5KVpCbQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\drawLine.BackgroundImage.png" size="387">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DjnIiBnGmIa0/tBdmOAS1GDILKcdnivkVc2qHrNOlro=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\DrawRecAngle.BackgroundImage.png" size="485">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SISHTj+TfuAf4yphcUbmRl/22+m5zDcY3P8QbQHDF6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\EasyShot.ico" size="103902">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7NdrU011lYtDp/kZD5AGSIDzylV9zGMQftwRJ3lB/9Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HideTXT.BackgroundImage.png" size="1488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AWKIYjwYszpNxzgszkGCbSVH5xuNdurILChyCIOIyLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\pencil.BackgroundImage.png" size="1280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oowvMIAy/GOvXjPncOMZ/cwr50HWb6c/stg712S4l8I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TypeText.BackgroundImage.png" size="1420">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SYxUyz4Ezkje5Oz8gX5DDXhwPSTlTqWx6fgoETAzaHM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\undo.BackgroundImage.png" size="1099">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qlgR020HR3YNqHEMO6bqcSCpqKQM2+pIelZwRW7UfYE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>
