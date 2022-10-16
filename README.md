@@ -3,7 +3,7 @@
     <p>Easyshot</p>
 <img src="./Screenshot 2022-10-16 051933.png">
     
-[![GitHub release](https://img.shields.io/github/release/SHETER0/EasyShot.svg?style=for-the-badge)](https://GitHub.com/SHETER0/EasyShot/releases/) [![GitHub issues](https://img.shields.io/github/issues/SHETER0/EasyShot.svg?style=for-the-badge)](https://GitHub.com/SHETER0/EasyShot/issues/) 
+[![GitHub release](https://img.shields.io/github/release/SHETER0/EasyShot.svg?style=for-the-badge)](https://GitHub.com/SHETER0/EasyShot_V1/releases/) [![GitHub issues](https://img.shields.io/github/issues/SHETER0/EasyShot.svg?style=for-the-badge)](https://GitHub.com/SHETER0/EasyShot_V1/issues/) 
 
 
 </h1>
